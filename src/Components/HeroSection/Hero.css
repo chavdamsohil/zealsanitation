@@ -76,7 +76,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1249px) {
   .heroSection {
-    background-image: url("./../../Assets/4.jpg");
+    background-image: url("./../../Assets/1.jpg");
     background-position: center;
   }
   .intro {
@@ -104,12 +104,12 @@ body {
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
   .heroSection {
-    background-image: url("./../../Assets/2.jpg");
+    background-image: url("./../../Assets/4.jpg");
     background-position: 10%;
   }
   .intro {
     position: relative;
-    right: 1vh;
+    right: -2vh;
     top: -18vh;
     width: 500px;
   }
