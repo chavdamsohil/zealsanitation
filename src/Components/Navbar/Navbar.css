@@ -1,14 +1,3 @@
-:root {
-  --white: #f9f7f7;
-  --whiteBlue: #dbe2ef;
-  --darkBlue: #112d4e;
-  --ligthBlue: #3f72af;
-  --whitegreen: #cbd3d0;
-  --darkgreen: #2f4841;
-  --lightgreen: #89af9f;
-  --accentGreen: #407e63;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,6 +14,7 @@
   left: 50%;
   transform: translate(-50%);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
 }
 
 .logo {

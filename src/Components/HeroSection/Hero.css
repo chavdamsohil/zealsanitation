@@ -1,14 +1,3 @@
-:root {
-  --white: #f9f7f7;
-  --whiteBlue: #dbe2ef;
-  --darkBlue: #112d4e;
-  --ligthBlue: #3f72af;
-  --whitegreen: #cbd3d0;
-  --darkgreen: #2f4841;
-  --lightgreen: #89af9f;
-  --accentGreen: #407e63;
-}
-
 .heroSection {
   max-width: 100vw;
   height: 100vh;
@@ -95,7 +84,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.5rem;
     color: #407e63;
-    z-index: 99;
+    z-index: 9;
   }
   .quotes {
     display: none;
@@ -117,13 +106,13 @@ body {
     font-size: 2rem;
     line-height: 2rem;
     color: #3d6654;
-    z-index: 99;
+    z-index: 9;
   }
   .intro p {
     font-size: 1rem;
     line-height: 1rem;
     color: #407e63;
-    z-index: 99;
+    z-index: 9;
   }
   .quotes {
     display: none;

@@ -1,11 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
+:root {
+  --white: #f9f7f7;
+  --whiteBlue: #dbe2ef;
+  --darkBlue: #112d4e;
+  --ligthBlue: #3f72af;
+  --whitegreen: hsl(120, 3%, 94%);
+  --darkgreen: #2f4841;
+  --lightgreen: #89af9f;
+  --accentGreen: #407e63;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-snap-type: y mandatory;
+}
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
 body {
