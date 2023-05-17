@@ -1,0 +1,135 @@
+:root {
+  --white: #f9f7f7;
+  --whiteBlue: #dbe2ef;
+  --darkBlue: #112d4e;
+  --ligthBlue: #3f72af;
+  --whitegreen: #cbd3d0;
+  --darkgreen: #2f4841;
+  --lightgreen: #89af9f;
+  --accentGreen: #407e63;
+}
+
+.heroSection {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("./../../Assets/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10vh;
+}
+.intro {
+  position: relative;
+  right: 16vh;
+  top: -10vh;
+}
+.quotes {
+  position: relative;
+  top: 30vh;
+  right: 75vh;
+}
+.intro h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.intro p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 15px 0;
+}
+.intro a {
+  font-size: 1.5rem;
+  display: block;
+  background-color: var(--accentGreen);
+  text-decoration: none;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 15px;
+}
+a {
+  color: var(--whitegreen);
+}
+.quotes p {
+  border-left: 4px solid var(--accentGreen);
+  padding-left: 20px;
+  margin: 40px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #3d6654;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #407e63;
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1249px) {
+  .heroSection {
+    background-image: url("./../../Assets/4.jpg");
+    background-position: center;
+  }
+  .intro {
+    position: relative;
+    right: 8vh;
+    top: -15vh;
+    width: 500px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #3d6654;
+    z-index: 99;
+  }
+  .intro p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #407e63;
+    z-index: 99;
+  }
+  .quotes {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .heroSection {
+    background-image: url("./../../Assets/2.jpg");
+    background-position: 10%;
+  }
+  .intro {
+    position: relative;
+    right: 1vh;
+    top: -18vh;
+    width: 500px;
+  }
+  .intro h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: #3d6654;
+    z-index: 99;
+  }
+  .intro p {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #407e63;
+    z-index: 99;
+  }
+  .quotes {
+    display: none;
+  }
+  .intro a {
+    font-size: 14px;
+    width: 100px;
+  }
+}
