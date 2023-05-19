@@ -19,25 +19,25 @@ const Navbar = () => {
   const Menudata = [
     {
       title: "Home",
-      url: "#",
+      url: "#Home",
       cName: "nav-links",
       icon: faHome,
     },
     {
       title: "About",
-      url: "#",
+      url: "#About",
       cName: "nav-links",
       icon: faBriefcase,
     },
     {
       title: "Services",
-      url: "#",
+      url: "#Services",
       cName: "nav-links",
       icon: faFaucetDrip,
     },
     {
       title: "Contact",
-      url: "#",
+      url: "#Contact",
       cName: "nav-links",
       icon: faAddressBook,
     },
@@ -56,7 +56,7 @@ const Navbar = () => {
         <ul className={clicked ? "all-links active" : "all-links"}>
           {Menudata.map((item, id) => {
             return (
-              <li key={id}>
+              <li key={id} onClick={handleClickHam}>
                 <a href={item.url} className={item.cName}>
                   <FontAwesomeIcon className="icons" icon={item.icon} />
 

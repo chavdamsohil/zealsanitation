@@ -10,6 +10,7 @@
   --darkgreen: #2f4841;
   --lightgreen: #89af9f;
   --accentGreen: #407e63;
+  --whitedark: #dedede;
 }
 * {
   margin: 0;
@@ -31,4 +32,10 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--accentGreen);
 }

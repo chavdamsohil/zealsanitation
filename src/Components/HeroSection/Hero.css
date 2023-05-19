@@ -65,19 +65,17 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1249px) {
   .heroSection {
-    background-image: url("./../../Assets/1.jpg");
+    background-image: url("./../../Assets/5.jpg");
     background-position: center;
   }
   .intro {
     position: relative;
-    right: 8vh;
+    right: 35vh;
     top: -15vh;
-    width: 500px;
   }
   .intro h1 {
     font-size: 2rem;
     line-height: 2rem;
-    color: #3d6654;
     z-index: 99;
   }
   .intro p {
@@ -93,25 +91,23 @@ body {
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
   .heroSection {
-    background-image: url("./../../Assets/4.jpg");
+    background-image: url("./../../Assets/6.jpg");
     background-position: 10%;
   }
   .intro {
     position: relative;
-    right: -2vh;
-    top: -18vh;
-    width: 500px;
+    top: -25vh;
+
+    right: 15vw;
   }
   .intro h1 {
     font-size: 2rem;
     line-height: 2rem;
-    color: #3d6654;
     z-index: 9;
   }
   .intro p {
     font-size: 1rem;
     line-height: 1rem;
-    color: #407e63;
     z-index: 9;
   }
   .quotes {

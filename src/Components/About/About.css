@@ -1,3 +1,73 @@
-body {
-  background-color: aqua;
+.section {
+  padding-top: 65px;
+  background-color: var(--whitedark);
+}
+.About {
+  background-color: var(--whitedark);
+}
+.heading-sec {
+  padding-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+.heading-sec h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.heading-sec p {
+  font-size: 1.5rem;
+}
+.owner-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img {
+  height: 200px;
+  box-shadow: 0 10px 30px rgba(62, 83, 73, 0.7);
+  border-radius: 15px;
+}
+
+.owner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  gap: 2rem;
+  cursor: pointer;
+}
+.owner1:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+.owner-info1 {
+  width: 60%;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1249px) {
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .owner-section {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .owner1,
+  .owner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .owner1,
+  .owner2 h2 {
+    font-size: 1rem;
+  }
+  .owner-info1 p {
+    font-size: 1rem;
+  }
+  .img {
+    height: 150px;
+  }
 }
