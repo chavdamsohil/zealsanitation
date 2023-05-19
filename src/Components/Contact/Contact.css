@@ -65,12 +65,11 @@
   .contact-sec {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0;
   }
   .info {
-    padding-top: 0.5rem;
+    padding: 0;
   }
   .icon {
     position: relative;
