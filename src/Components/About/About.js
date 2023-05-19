@@ -17,10 +17,7 @@ const About = () => {
           </div>
           <article className="owner-info1">
             <h2>Malde Chawada</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              corrupti harum, architecto ducimus
-            </p>
+            <p>Founder</p>
           </article>
         </div>
         <div className="owner1 lower">
@@ -29,10 +26,7 @@ const About = () => {
           </div>
           <article className="owner-info1">
             <h2>Sohil Chawada</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              corrupti harum, architecto ducimus
-            </p>
+            <p>Project manager</p>
           </article>
         </div>
       </section>
